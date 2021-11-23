@@ -1,8 +1,7 @@
-# Developing a Simple Webserver
-## AIM:
+AIM:
 To develop a simple webserver to serve html pages.
 
-## DESIGN STEPS:
+DESIGN STEPS:
 ### Step 1: 
 HTML content creation
 ### Step 2:
@@ -12,9 +11,8 @@ Implementation using Python code
 ### Step 4:
 Serving the HTML pages.
 ### Step 5:
-Testing the webserver
-
-## PROGRAM:
+Testing the webserver.
+PROGRAM:
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -68,12 +66,12 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running")
 httpd.serve_forever()
 
-## OUTPUT:
+OUTPUT:
 Server side output:
 ![image](https://user-images.githubusercontent.com/94164665/143048942-88c4624e-941c-47af-a644-3c050a96b521.png)
 Clint side output: 
 ![image](https://user-images.githubusercontent.com/94164665/143049016-29612f41-4968-4d28-a6be-ca3d87dd172f.png)
 
 
-## RESULT:
+RESULT:
 The web develop program is successfully shows top 5 programming languages. 
